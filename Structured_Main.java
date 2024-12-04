@@ -21,7 +21,7 @@ class Adapter implements Target {
     }
 }
 
-public class Structured {
+public class Structured_Main {
     public static void main(String[] args) {
         Adaptee adaptee = new Adaptee();
         Target target = new Adapter(adaptee);

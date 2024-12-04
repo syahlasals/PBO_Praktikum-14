@@ -22,7 +22,7 @@ class Config {
     }
 }
 
-public class Creational_pattern {
+public class Creational_Main {
     public static void main(String[] args) {
         Config config = Config.getInstance();
         System.out.println(config.getSetting());

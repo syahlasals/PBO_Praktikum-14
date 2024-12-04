@@ -42,7 +42,7 @@ class ConcreteObserver implements Observer {
     }
 }
 
-public class Behavioral {
+public class Behavioral_Main {
     public static void main(String[] args) {
         Subject subject = new Subject();
         Observer obs1 = new ConcreteObserver("Observer 1");
